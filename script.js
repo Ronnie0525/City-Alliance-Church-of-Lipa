@@ -3,7 +3,7 @@ const themeToggle = document.getElementById('themeToggle');
 const root = document.documentElement;
 
 const savedTheme = localStorage.getItem('cac-theme');
-if (savedTheme === 'dark') root.setAttribute('data-theme', 'dark');
+if (savedTheme !== 'light') root.setAttribute('data-theme', 'dark');
 
 if (themeToggle) {
   themeToggle.addEventListener('click', () => {
