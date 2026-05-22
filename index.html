@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>City Alliance Church of Lipa</title>
+  <link rel="icon" type="image/png" href="Asset/logo.png" />
+  <link rel="apple-touch-icon" href="Asset/logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="index.html" class="nav-left">
+      <img src="Asset/logo.png" alt="CACL Logo" class="logo-img" />
+      <div class="brand">
+        <span class="brand-name">City Alliance Church of Lipa</span>
+      </div>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="story.html" class="nav-link">Story</a>
+      <div class="nav-dropdown">
+        <button class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+          Ministry
+          <svg class="dropdown-chevron" viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </button>
+        <div class="dropdown-menu" role="menu">
+          <a href="bible-study.html" class="dropdown-item">Bible Study</a>
+          <a href="youth.html" class="dropdown-item">Youth</a>
+          <a href="women.html" class="dropdown-item">Women</a>
+          <a href="men.html" class="dropdown-item">Men</a>
+          <a href="children.html" class="dropdown-item">Children</a>
+          <a href="sunday-school.html" class="dropdown-item">Sunday School</a>
+          <a href="discipleship.html" class="dropdown-item">Discipleship</a>
+          <a href="evangelism.html" class="dropdown-item">Evangelism</a>
+          <a href="counseling.html" class="dropdown-item">Counseling</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="nav-right">
+      <a href="donation.html" class="nav-donate">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+        Make a Donation
+      </a>
+      <a href="contact.html" class="nav-cta">Come With Us</a>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="4"/>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+      <button id="mobileMenuToggle" class="mobile-menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <span class="eyebrow">Welcome Home</span>
+        <h1>Where Faith Takes Root and Grace Finds You</h1>
+        <p class="subheading">A community in Lipa called to worship, to grow, and to love without limits.</p>
+        <p class="hero-paragraph">
+          We are more than a gathering — we are a family shaped by Christ, sent to bring hope
+          to every corner of our city. Whether you are searching, struggling, or simply curious,
+          there is a place for you at the table.
+        </p>
+        <blockquote class="hero-verse">
+          "For I know the plans I have for you, declares the Lord, plans for welfare and not for evil,
+          to give you a future and a hope."
+          <cite>— Jeremiah 29:11</cite>
+        </blockquote>
+        <div class="hero-cta">
+          <a href="about.html" class="btn btn-primary">Plan a Visit</a>
+          <a href="story.html" class="btn btn-ghost">Our Story</a>
+        </div>
+      </div>
+      <div class="hero-decor" aria-hidden="true">
+        <div class="decor-ring"></div>
+        <div class="decor-cross">
+          <svg viewBox="0 0 24 24" width="120" height="120" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round">
+            <path d="M12 2v20M6 8h12"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- THIS SUNDAY -->
+    <section class="section">
+      <div class="sunday-banner">
+        <div>
+          <span class="banner-eyebrow">This Sunday</span>
+          <h2>Join Us for Worship</h2>
+          <p>Two services every Sunday — come early for coffee, conversation, and a warm welcome from our team. Whether it's your first time or your fiftieth, there's a seat saved for you.</p>
+        </div>
+        <div class="banner-meta">
+          <div>
+            <div class="meta-label">Service Times</div>
+            <div class="meta-value">8:00 AM & 10:30 AM</div>
+          </div>
+          <div>
+            <div class="meta-label">Location</div>
+            <div class="meta-value">Lipa City, Batangas</div>
+          </div>
+          <div>
+            <a href="about.html" class="meta-link">What to expect →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT TO EXPECT -->
+    <section class="section">
+      <div class="section-head">
+        <span class="eyebrow">First Time With Us?</span>
+        <h2>Here's What Sunday Looks Like</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Warm Welcome</h3>
+          <p>Our hospitality team meets you at the door with a smile, a hot cup of coffee, and answers to any question you might have. No pressure, no awkward introductions.</p>
+        </div>
+        <div class="about-card">
+          <h3>Honest Worship</h3>
+          <p>About ninety minutes of singing, prayer, Scripture, and a grounded message from the Bible. We sing both hymns and modern songs — and you can simply listen if you'd rather.</p>
+        </div>
+        <div class="about-card">
+          <h3>Family-Friendly</h3>
+          <p>Children are welcome in the service, and we offer a fun, safe kids' program during the 10:30 AM service. Parents of toddlers can use our quiet room with live audio.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PASTOR'S MESSAGE -->
+    <section class="section">
+      <div class="section-head">
+        <span class="eyebrow">A Word From Our Pastor</span>
+        <h2>Meet Pastor Rex</h2>
+      </div>
+      <div class="pastor-card">
+        <div class="pastor-content">
+          <div class="pastor-name-block">
+            <h3 class="pastor-name">Rex Dela Rosa</h3>
+            <div class="pastor-title">Church Pastor</div>
+          </div>
+          <p>
+            Dear friend, wherever you are in life right now — whether you have walked with Jesus for many years or you have never stepped into a church — you are welcome here. My deepest joy is to tell you that Jesus Christ is alive, He loves you, and salvation is freely offered to anyone who calls on His name.
+          </p>
+          <p>
+            If you have not yet given your life to Christ, there is no better day than today. He saves, He sanctifies, He heals, and He is coming again. And if you already know Him, the journey only grows sweeter as we walk it together — worshiping, learning, serving, and belonging to one another in the family of God.
+          </p>
+          <p>
+            We would be honored to walk with you. Come and join us this Sunday — there is a seat saved for you, and the joy of the gospel waiting to be shared.
+          </p>
+          <blockquote class="pastor-verse">
+            "If you declare with your mouth, 'Jesus is Lord,' and believe in your heart that God raised him from the dead, you will be saved."
+            <cite>— Romans 10:9</cite>
+          </blockquote>
+          <p class="pastor-signature">— Pastor Rex Dela Rosa</p>
+        </div>
+        <div class="pastor-aside">
+          <div class="pastor-photo-wrap">
+            <img src="Asset/Pastor%20Rex%20Dela%20Rosa.png" alt="Pastor Rex Dela Rosa — Senior Pastor of City Alliance Church of Lipa" class="pastor-photo" />
+          </div>
+          <div class="pastor-actions">
+            <a href="https://www.facebook.com/rex.delarosa.1" target="_blank" rel="noopener" class="btn btn-facebook">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/>
+              </svg>
+              Connect with Pastor Rex
+            </a>
+            <a href="contact.html" class="btn btn-ghost pastor-visit">Plan a Visit</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MINISTRIES -->
+    <section class="section">
+      <div class="section-head">
+        <span class="eyebrow">Find Your People</span>
+        <h2>Ministries at City Alliance</h2>
+      </div>
+      <div class="ministry-grid">
+        <div class="ministry-item">
+          <div class="ministry-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 18V5l12-2v13"/>
+              <circle cx="6" cy="18" r="3"/>
+              <circle cx="18" cy="16" r="3"/>
+            </svg>
+          </div>
+          <div class="ministry-body">
+            <h4>Worship & Arts</h4>
+            <p>Singers, musicians, and creatives lifting God's name in spirit and truth.</p>
+          </div>
+        </div>
+        <div class="ministry-item">
+          <div class="ministry-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <div class="ministry-body">
+            <h4>Youth & Young Adults</h4>
+            <p>A community where the next generation grows in faith and friendship.</p>
+          </div>
+        </div>
+        <div class="ministry-item">
+          <div class="ministry-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2h-4v-7H10v7H6a2 2 0 0 1-2-2z"/>
+            </svg>
+          </div>
+          <div class="ministry-body">
+            <h4>Kids & Family</h4>
+            <p>Age-appropriate teaching for our youngest disciples and support for parents.</p>
+          </div>
+        </div>
+        <div class="ministry-item">
+          <div class="ministry-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </div>
+          <div class="ministry-body">
+            <h4>Outreach & Mercy</h4>
+            <p>Feeding programs, livelihood training, and gospel-shaped community care.</p>
+          </div>
+        </div>
+        <div class="ministry-item">
+          <div class="ministry-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 11h-6"/>
+              <path d="M20 8v6"/>
+            </svg>
+          </div>
+          <div class="ministry-body">
+            <h4>Life Groups</h4>
+            <p>Smaller circles for study, prayer, and shared life throughout the week.</p>
+          </div>
+        </div>
+        <div class="ministry-item">
+          <div class="ministry-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/>
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+              <line x1="12" y1="19" x2="12" y2="23"/>
+              <line x1="8" y1="23" x2="16" y2="23"/>
+            </svg>
+          </div>
+          <div class="ministry-body">
+            <h4>Prayer Ministry</h4>
+            <p>A team that intercedes for our church, our city, and the nations every week.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BY THE NUMBERS -->
+    <section class="section">
+      <div class="section-head">
+        <span class="eyebrow">By God's Grace</span>
+        <h2>A Family Still Growing</h2>
+      </div>
+      <div class="stats-row">
+        <div class="stat-item">
+          <div class="stat-number">18+</div>
+          <div class="stat-label">Years of Faithfulness</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">300+</div>
+          <div class="stat-label">People Each Sunday</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">20+</div>
+          <div class="stat-label">Life Groups</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">1</div>
+          <div class="stat-label">Family in Christ</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAP -->
+    <section class="section">
+      <div class="section-head">
+        <span class="eyebrow">Visit Us</span>
+        <h2>Find Us in Lipa</h2>
+      </div>
+      <div class="map-wrap">
+        <iframe
+          src="https://maps.google.com/maps?q=City+Alliance+Church+of+Lipa,+Lipa+City,+Batangas,+Philippines&z=17&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen
+          title="City Alliance Church of Lipa location on Google Maps"></iframe>
+      </div>
+      <p class="map-address">
+        <strong>City Alliance Church of Lipa</strong><br />
+        Lipa City, Batangas, Philippines
+      </p>
+      <div class="map-actions">
+        <a
+          href="https://www.google.com/maps/dir/?api=1&destination=City+Alliance+Church+of+Lipa,+Lipa+City,+Batangas,+Philippines"
+          class="btn btn-primary"
+          target="_blank"
+          rel="noopener">Get Directions</a>
+        <a
+          href="https://www.google.com/maps/search/?api=1&query=City+Alliance+Church+of+Lipa,+Lipa+City,+Batangas,+Philippines"
+          class="btn btn-ghost"
+          target="_blank"
+          rel="noopener">Open in Google Maps</a>
+      </div>
+    </section>
+
+    <!-- NEXT STEPS -->
+    <section class="section">
+      <div class="section-head">
+        <span class="eyebrow">Take the Next Step</span>
+        <h2>Find Your Place in Our Family</h2>
+      </div>
+      <div class="next-steps">
+        <a href="about.html" class="next-card">
+          <h3>About Us</h3>
+          <p>Learn what we believe, how we worship, and the ministries that make us family.</p>
+          <span class="arrow">Discover more →</span>
+        </a>
+        <a href="story.html" class="next-card">
+          <h3>Our Story</h3>
+          <p>Walk through nearly two decades of God's faithfulness in the heart of Lipa.</p>
+          <span class="arrow">Read the journey →</span>
+        </a>
+        <a href="contact.html" class="next-card">
+          <h3>Connect</h3>
+          <p>Visit on Sunday, send a prayer request, or reach out — we'd love to meet you.</p>
+          <span class="arrow">Say hello →</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-main">
+      <div class="footer-col footer-col-brand">
+        <div class="footer-brand">
+          <img src="Asset/logo.png" alt="CACL Logo" class="logo-img sm" />
+          <div>
+            <div class="brand-name">City Alliance Church of Lipa</div>
+            <div class="footer-tag">Faith. Family. Mission. • Since 2008</div>
+          </div>
+        </div>
+        <p class="footer-blurb">
+          A Christ-centered, Bible-believing community in the heart of Lipa City — gathered every Sunday to worship, grow, and love without limits.
+        </p>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/profile.php?id=100074257956971" target="_blank" rel="noopener" class="social" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+            <span>Facebook</span>
+          </a>
+          <a href="#" class="social" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+            <span>Instagram</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5 class="footer-title">Explore</h5>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="story.html">Our Story</a></li>
+          <li><a href="donation.html">Make a Donation</a></li>
+          <li><a href="contact.html">Come With Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5 class="footer-title">Ministries</h5>
+        <ul class="footer-links">
+          <li><a href="bible-study.html">Bible Study</a></li>
+          <li><a href="youth.html">Youth</a></li>
+          <li><a href="women.html">Women</a></li>
+          <li><a href="men.html">Men</a></li>
+          <li><a href="children.html">Children</a></li>
+          <li><a href="sunday-school.html">Sunday School</a></li>
+          <li><a href="discipleship.html">Discipleship</a></li>
+          <li><a href="evangelism.html">Evangelism</a></li>
+          <li><a href="counseling.html">Counseling</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5 class="footer-title">Connect</h5>
+        <ul class="footer-contact">
+          <li>
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span>Lipa City, Batangas, Philippines</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <a href="tel:+630000000000">+63 (000) 000-0000</a>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <a href="mailto:hello@cityalliancelipa.ph">hello@cityalliancelipa.ph</a>
+          </li>
+        </ul>
+        <div class="footer-services">
+          <div class="services-label">Sunday Worship</div>
+          <div class="services-time">8:00 AM & 10:30 AM</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> City Alliance Church of Lipa. All rights reserved.</p>
+      <p class="footer-verse">"Grace and peace to you." — Romans 1:7</p>
+    </div>
+  </footer>
+
+  <!-- MOBILE MENU -->
+  <div id="mobileMenuOverlay" class="mobile-menu-overlay"></div>
+  <aside id="mobileMenu" class="mobile-menu" aria-label="Mobile navigation" aria-hidden="true">
+    <div class="mobile-menu-header">
+      <span class="mobile-menu-title">Menu</span>
+      <button id="mobileMenuClose" class="mobile-menu-close" aria-label="Close menu">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <nav class="mobile-menu-nav">
+      <a href="index.html" class="mobile-link">Home</a>
+      <a href="about.html" class="mobile-link">About</a>
+      <a href="story.html" class="mobile-link">Story</a>
+      <div class="mobile-section">
+        <div class="mobile-section-title">Ministry</div>
+        <a href="bible-study.html" class="mobile-sublink">Bible Study</a>
+        <a href="youth.html" class="mobile-sublink">Youth</a>
+        <a href="women.html" class="mobile-sublink">Women</a>
+        <a href="men.html" class="mobile-sublink">Men</a>
+        <a href="children.html" class="mobile-sublink">Children</a>
+        <a href="sunday-school.html" class="mobile-sublink">Sunday School</a>
+        <a href="discipleship.html" class="mobile-sublink">Discipleship</a>
+        <a href="evangelism.html" class="mobile-sublink">Evangelism</a>
+        <a href="counseling.html" class="mobile-sublink">Counseling</a>
+      </div>
+      <a href="donation.html" class="mobile-link-donate">Make a Donation</a>
+      <a href="contact.html" class="mobile-link-cta">Come With Us</a>
+    </nav>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
