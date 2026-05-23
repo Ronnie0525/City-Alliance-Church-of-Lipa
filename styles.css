@@ -563,14 +563,14 @@ p { margin: 0 0 0.8rem; color: var(--ink-soft); }
     100deg,
     #ffffff 0%,
     #ffffff 42%,
-    #c8f0a8 48%,
+    #c8f0a8 47%,
     #76e040 50%,
-    #c8f0a8 52%,
+    #c8f0a8 53%,
     #ffffff 58%,
     #ffffff 100%
   ) no-repeat;
-  background-size: 250% auto;
-  background-position: 200% center;
+  background-size: 300% auto;
+  background-position: 0% center;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -579,8 +579,8 @@ p { margin: 0 0 0.8rem; color: var(--ink-soft); }
   animation: hero-text-sweep 5s ease-in-out infinite;
 }
 @keyframes hero-text-sweep {
-  0%   { background-position: 200% center; }
-  100% { background-position: -100% center; }
+  0%   { background-position: 0% center; }
+  100% { background-position: 100% center; }
 }
 .hero .subheading,
 [data-theme="dark"] .hero .subheading {
