@@ -86,6 +86,26 @@ document.querySelectorAll('.mobile-link, .mobile-sublink').forEach((link) => {
   }
 });
 
+// Scroll-triggered fade animations
+if ('IntersectionObserver' in window
+    && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const fadeObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        fadeObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+
+  document.querySelectorAll('main > section').forEach((el) => {
+    // Skip the hero (it has its own entrance animation)
+    if (el.classList.contains('hero')) return;
+    el.classList.add('fade-up');
+    fadeObserver.observe(el);
+  });
+}
+
 // Footer year
 const yearEl = document.getElementById('year');
 if (yearEl) yearEl.textContent = new Date().getFullYear();
